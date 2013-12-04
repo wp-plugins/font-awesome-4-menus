@@ -32,17 +32,17 @@ Head over to [the Font Awesome website](http://fortawesome.github.io/Font-Awesom
 
 = How to I add an icon to my menu? =
 
-Go to Appearance -> Menus, select which menu item to which you want to add the icon, and add the icon class(es) under 'CSS Classes (optional)'. (eg, to add the home icon to your 'Home' link, enter “fa-home" (without quotes) as a class. To make it spin, add “fa-home fa-spin” as your classes.) Save your menu and voila!
+Go to Appearance -> Menus, select which menu item to which you want to add the icon, and add the icon class(es) under 'CSS Classes (optional)'. (eg, to add the home icon to your 'Home' link, enter "fa-home" (without quotes) as a class. To make it spin, add "fa-home fa-spin" as your classes.) Save your menu and voila!
 
 Want to add an icon to a post or page? Use the shortcodes available:
 
-* Add a single home icon: [fa class=“fa-home”]
+* Add a single home icon: [fa class="fa-home"]
 * Add a stacked Twitter icon: [fa-stack][fa class="fa-square-o fa-stack-2x"][fa class="fa-twitter fa-stack-1x"][/fa-stack]
 
 You can also use [any of the Font Awesome icons and options](http://fortawesome.github.io/Font-Awesome "any of the Font Awesome icons and options") with the i class in your theme:
 
-* Add a home icon: <i class=“fa fa-home”></i>
-* Add a home icon: <i class=“fa fa-home”></i>
+* Add a home icon: `<i class="fa fa-home"></i>`
+* Add a home icon: `<i class="fa fa-home"></i>`
 
 = How to I place the icon after my menu text? =
 
