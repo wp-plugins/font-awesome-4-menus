@@ -3,7 +3,7 @@ Contributors: New Nine
 Author URI: http://www.newnine.com
 Tags: menus, font awesome, navigation, responsive, nav menu, wp_nav_menu
 Requires at least: 3
-Tested up to: 3.7.1
+Tested up to: 3.8
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@ Allows you to add Font Awesome 4 icons to your WordPress menus or anywhere on yo
 
 == Description ==
 
-Add Font Awesome 4 icons to your WordPress menus without touching a single line of code! With this plugin, just add fa-(icon name) as a class/classes to your menu and the plugin will pull that out, put the icon before or after your link text, and wrap your link text in a span so you can show or hide it as you see fit.
+Add Font Awesome 4 icons to your WordPress menus and site without touching a single line of code! With this plugin, just add fa-(icon name) as a class/classes to your menu and the plugin will pull that out, put the icon before or after your link text, and wrap your link text in a span so you can show or hide it as you see fit.
 
 In Font Awesome 4 Menus, we have added the ability to add multiple Font Awesome classes for multiple effects (eg, fa-home fa-fw fa-2x will add a fixed-width home icon at two times the normal size).
 
@@ -28,7 +28,7 @@ Then, activate the plugin through the 'Plugins' menu in WordPress.
 
 = Where can I find all of the available icons? =
 
-Head over to [the Font Awesome website](http://fortawesome.github.io/Font-Awesome/icons "the Font Awesome website") to find a full list of icons available. Don’t forget to check out the [examples page](http://fortawesome.github.io/Font-Awesome/examples “examples page”) to see how you can mix and match icons for new effects.
+Head over to [the Font Awesome website](http://fortawesome.github.io/Font-Awesome/icons "the Font Awesome website") to find a full list of icons available. Don't forget to check out the [examples page](http://fortawesome.github.io/Font-Awesome/examples "examples page") to see how you can mix and match icons for new effects.
 
 = How to I add an icon to my menu? =
 
@@ -46,7 +46,7 @@ You can also use [any of the Font Awesome icons and options](http://fortawesome.
 
 = How to I place the icon after my menu text? =
 
-Add “fa-after” (excluding the quotes) as one of your classes and the icon will show up after your text.
+Add "fa-after" (excluding the quotes) as one of your classes and the icon will show up after your text.
 
 = Why don't I see an option to add classes? =
 
@@ -60,8 +60,8 @@ You can see this in action at our responsive site (http://www.newnine.com) where
 
 = Will this bloat or slow down my WordPress? =
 
-No. On your site, Font Awesome 4 Menus will load one minified stylesheet (18kb) which load the fonts. We use it on mobile-first responsive sites (and our own site) all the time without any noticeable performance drag.
+No. On your site, Font Awesome 4 Menus will load one minified stylesheet (18kb) which loads the fonts. We use it on mobile-first responsive sites (and our own site) all the time without any noticeable performance drag.
 
 = What happens to my menus if I deactivate/uninstall this? =
 
-Your site will be fine. Where you used Font Awesome menus, those menu items will just have additional classes (fa-whatever) that you can erase or ignore (or style differently).
+Your site will be fine. Where you used Font Awesome 4 Menus, those menu items will just have additional classes (fa-whatever) that you can erase or ignore (or style differently).
