@@ -30,7 +30,7 @@ class FontAwesomeFour {
 
     function admin_notice(){
         global $current_user, $pagenow;
-        if( 'kill-n9m-font-awesome-4-notice' == $_REQUEST[ 'action' ] ){
+        if( isset( $_REQUEST[ 'action' ] ) && 'kill-n9m-font-awesome-4-notice' == $_REQUEST[ 'action' ] ){
             update_user_meta( $current_user->data->ID, 'n9m-font-awesome-4-notice-hide', 1 );
         }
         $shownotice = get_user_meta( $current_user->data->ID, 'n9m-font-awesome-4-notice-hide', true );
